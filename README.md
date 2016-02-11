@@ -10,10 +10,10 @@ To run tests while working on a project:
 Both of these modules are included in Windows 10 and in Windows Management Framework 5.0. 
 
 **Script Analyzer**
-  - Linting for PowerShell projects.  This should include your Pester tests!
+  - Linting for PowerShell projects.  Recurses subfolders by default.  Remember to also lint your unit tests.
 
 **Pester**
-  - Language extension for authoring Unit tests for PowerShell projects.
+  - Language extension for authoring Unit tests for PowerShell projects.  By default the task is looking for tests with the tag 'taskRunnertest'.
  
 Visual Studio Code is an awesome editor with support for PowerShell through a Plug-In.
   - Download [Visual Studio Code](http://code.visualstudio.com)
